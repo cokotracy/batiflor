@@ -1,0 +1,21 @@
+# -*- coding: utf-8 -*-
+{
+    'name': 'Print Invoice Date',
+    'version': '1.0',
+    'description': """
+    Print Invoice Date
+""",
+    'Author': 'D4E',
+    'category': 'Tools',
+    'website': 'https://www.d4e.cool',
+    'depends': [
+        'account',
+    ],
+    'data': [
+        'views/account_move_views.xml',
+        'views/reports.xml',
+    ],
+    'installable': True,
+    'application': False,
+    'auto_install': False,
+}
